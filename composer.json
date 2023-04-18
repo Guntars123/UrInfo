@@ -13,6 +13,7 @@
     ],
     "require": {
         "guzzlehttp/guzzle": "^7.5",
-        "ext-readline": "*"
+        "ext-readline": "*",
+        "ext-json": "*"
     }
 }
