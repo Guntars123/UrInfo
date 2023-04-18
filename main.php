@@ -9,6 +9,9 @@ $regCode = readline("Please enter registration number: ");
 if (!is_numeric($regCode)) {
     echo "Error: Input must be a number" . PHP_EOL;
     exit;
+} elseif (strlen($regCode) < 9) {
+    echo "Error: Input must be at least 9 digit number" . PHP_EOL;
+    exit;
 }
 
 $apiClient = new ApiClient();
